@@ -181,10 +181,10 @@ Kondisi ini apabila belum memasuki bulan ke 8, maka akan mendapatkan laba sebesa
 - Membuat kondisi terakhir.
 ```python
     else:
-        laba = modal*3/100
+        laba = modal*2/100
         untung = untung + laba
 ```
-Ini adalah kondisi pada bulan ke 8. Laba menurun 2%, sehingga laba bulan ke 8 menjadi sebesar 3%.
+Ini adalah kondisi pada bulan ke 8. Laba menurun 2%,
 
 - Mencetak laba perbulan dan total laba selama 8 bulan.
 ```python
@@ -198,4 +198,4 @@ print("Total laba adalah:", untung)
 Dan ini akan menampilkan total laba selama 8 bulan.
 
 ### Screenshoot Input & Output
-![Program1](https://user-images.githubusercontent.com/72727701/98082911-20e4b600-1eac-11eb-98fd-bb86b082d9df.png)
+![Program(1)](https://user-images.githubusercontent.com/72727701/98084293-2f33d180-1eae-11eb-9fac-b2336ae99372.png)
